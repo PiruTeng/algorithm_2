@@ -10,8 +10,8 @@ from PIL import Image
 import imageio
 
 # Constants
-# IMAGE_DIR_NAME = "shovel_loading_01"
-IMAGE_DIR_NAME = "shovel_unloading_01"
+IMAGE_DIR_NAME = "image_shovel_loading_58"
+# IMAGE_DIR_NAME = "image_shovel_unloading_01"
 # 自动计算路径
 BASE_DIR = PathlibPath(__file__).parent
 PNGS_DIR = BASE_DIR  /IMAGE_DIR_NAME  / "images"

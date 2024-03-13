@@ -323,7 +323,7 @@ def hybrid_a_star_planning(start, goal, collision_lookup, observation, xyreso, y
                     or openList[neighbor_index].cost > neighbor.cost:
                 heapq.heappush(pq, (calc_cost(neighbor,goal),neighbor_index))
                 openList[neighbor_index] = neighbor
-        if iter_num>10:
+        if iter_num>1000:
             print("Cannot find path, beyond limit!")
             return None
     path = get_final_path(closedList, fpath, nstart, config)
