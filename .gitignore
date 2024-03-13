@@ -2,5 +2,6 @@
 **/__pycache__
 /inputs/Scenarios/*
 /outputs/*
+find ./ -type d -empty -exec touch {}/.gitignore \;
 /onsite_images_saved/*
 !/onsite_images_saved/gif_generateor_simple.py
