@@ -2,5 +2,6 @@
 **/__pycache__
 /inputs/Scenarios/*
 /outputs/*
+!/outputs/.gitkeep
 /onsite_images_saved/*
 !/onsite_images_saved/gif_generateor_simple.py
