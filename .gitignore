@@ -1,0 +1,6 @@
+# 默认忽略的文件
+**/__pycache__
+/inputs/Scenarios/*
+/outputs/*
+/onsite_images_saved/*
+!/onsite_images_saved/gif_generateor_simple.py
